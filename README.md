@@ -9,3 +9,11 @@ My very first project added to the repository. Created solely to practice HTML f
 
 In the nearest future planning to develop both the code and the README description. 
 
+### Responsivness
+
+### Accesibility
+
+### Validations
+
+### Animations
+
