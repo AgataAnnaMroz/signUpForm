@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;    
+    color: hsl(0, 0%, 20%);
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    color: hsl(191, 98%, 42%);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.7rem;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.45rem;
+    margin: 20px;
+    color: hsl(14, 31%, 79%);
+}
+
+.illustration {
+    width: 33.33%;
+    height: 100vh;
+    background-color: hsl(233, 13%, 26%);
+}
+
+.signIn {
+    position: relative;
+    margin: 20px;
+    text-align: right;
+    right: 0;
+}
+
+.main {
+    width: 66.67%;
+}
+
+.mainSection {
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button--google {
+    background-color: hsl(218, 89%, 63%);
+    border-color: hsl(218, 89%, 63%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin-right: 10px;
+}
+
+.button--google:hover {
+    background-color: hsl(218, 89%, 53%);
+    border-color: hsl(218, 89%, 53%);
+}
+
+.button--google:focus {
+    border-color: hsl(218, 89%, 33%);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .illustration {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 500px) {
+    .mainSection {
+        width: calc(100% - 30px);
+        margin-bottom: 15px;
+
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 14px;
+    }
+
+}

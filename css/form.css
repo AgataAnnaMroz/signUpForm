@@ -1,0 +1,64 @@
+.flexContainer--form {
+    justify-content: space-between;
+}
+
+.form__container {
+    flex-basis: 100px;
+    flex-grow: 1;
+    max-width: calc(50% - 5px);
+    margin-top: 10px;
+}
+
+.form__container--long {
+    max-width: 100%;
+}
+
+.form__label {
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    border: 1.5px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 0%);
+}
+
+.form__input:hover {
+    border: 1.5px solid hsl(0, 0%, 40%);
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: hsl(221, 40%, 60%);
+}
+
+.form__alert {
+    margin: 5px 0;
+    font-size: .8rem;
+}
+
+.form__agreements {
+    font-size: .85rem;
+    text-align: justify;
+}
+
+.form__button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: hsl(7, 86%, 69%);
+    border: 2px solid hsl(7, 86%, 69%);
+    color: hsl(0, 0%, 100%);
+}
+
+.form__button:hover {
+    background-color: hsl(7, 86%, 59%);
+    border: 2px solid hsl(7, 86%, 59%);
+}
+
+.form__button:focus {
+    outline: none;
+    border-color: hsl(7, 86%, 39%);
+}
