@@ -1,7 +1,7 @@
 # Northern Lights - Sign Up form 
 
 ## Demo
-https://agataannamroz.github.io/signUpForm/
+**Visit page →** [Northern Lights Sign up form](https://agataannamroz.github.io/signUpForm/)
 
 ## Description
 
