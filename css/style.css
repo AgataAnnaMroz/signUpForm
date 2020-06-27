@@ -61,9 +61,7 @@ h2 {
 }
 
 .button {
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: 2px solid;
+   max-height: 42.4px; 
 }
 
 .button:focus {
@@ -71,6 +69,9 @@ h2 {
 }
 
 .button--google {
+    padding: 10px 0;
+    border-radius: 25px;
+    border: 2px solid;
     background-color: hsl(218, 89%, 63%);
     border-color: hsl(218, 89%, 63%);
     color: hsl(0, 0%, 100%);
@@ -86,6 +87,20 @@ h2 {
 .button--google:focus {
     border-color: hsl(218, 89%, 33%);
 }
+
+.button--facebook {
+    padding: 0;
+    border: 0 none;
+    background: none;
+}
+
+.facebookIcon {
+    max-height: 42.4px;
+    height: 100%;
+    color: blue;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
     .illustration {

@@ -35,6 +35,11 @@
     border-color: hsl(221, 40%, 60%);
 }
 
+/*
+.form__input:invalid {
+    border-color: hsl(7, 86%, 39%);
+}*/
+
 .form__alert {
     margin: 5px 0;
     font-size: .8rem;
