@@ -39,7 +39,12 @@ h2 {
     flex-basis: 33.33%;
     max-height: 100%;
     min-height: 100vh;
-    background-color: hsl(233, 13%, 26%);
+    /* background-color: hsl(233, 13%, 26%); */
+    background-image: url('../images/lamp_firstpage.svg');
+    /* background-position: calc(50% + 75px) center; */
+    background-position: right 720px center;
+    background-size: cover;
+    
 }
 
 .signIn {
@@ -60,46 +65,51 @@ h2 {
     margin: 0 auto;
 }
 
-.button {
-   max-height: 42.4px; 
-}
-
-.button:focus {
-    outline: none;
-}
-
-.button--google {
+.googleLink {
+    max-height: 42.4px;
     padding: 10px 0;
     border-radius: 25px;
-    border: 2px solid;
+    border: 2px solid hsl(218, 89%, 63%);
     background-color: hsl(218, 89%, 63%);
-    border-color: hsl(218, 89%, 63%);
     color: hsl(0, 0%, 100%);
-    width: 100%;
+    flex-grow: 1;
     margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
-.button--google:hover {
+.googleLink:hover {
     background-color: hsl(218, 89%, 53%);
     border-color: hsl(218, 89%, 53%);
 }
 
-.button--google:focus {
+.googleLink:focus {
+    outline: none;
     border-color: hsl(218, 89%, 33%);
 }
 
-.button--facebook {
-    padding: 0;
-    border: 0 none;
-    background: none;
+.fa-google {
+    margin-right: 10px;
+}
+
+.facebookLink {
+    display: block;
+    max-height: 42.4px;
+    max-width: 42.4px;
+    width: 100%;
 }
 
 .facebookIcon {
+    display: block;
     max-height: 42.4px;
     height: 100%;
-    color: blue;
 }
 
+.facebookLink:focus {
+    outline: none;
+    /*border-radius: 25px;
+    box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.75);*/
+}
 
 
 @media only screen and (max-width: 1000px) {
